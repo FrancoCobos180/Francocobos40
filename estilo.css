@@ -1,0 +1,94 @@
+.contenedor {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f75;
+  }
+  .resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+    
+  }
+  .barra-progreso {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .lista-personas {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .persona-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .eliminar-btn {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+  }
+  #logo {
+    max-width: 200px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    margin-bottom: 20px;
+    cen
+  }
